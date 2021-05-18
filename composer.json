@@ -1,32 +1,42 @@
 {
-    "name": "lookitsatravis/listify",
-    "description": "Turn any Eloquent model into a list! http://lookitsatravis.github.io/listify",
-    "keywords": ["laravel", "model", "position", "acts_as_list", "rails", "list", "eloquent", "order"],
-    "license": "MIT",
-    "authors": [{
-        "name": "Travis Vignon",
-        "email": "travis@lookitsatravis.com",
-        "homepage": "http://lookitsatravis.com"
-    }],
-    "require": {
-        "php": ">=5.5.0",
-        "illuminate/database": "~5.0",
-        "illuminate/support": "~5.0",
-        "illuminate/console": "~5.0",
-        "illuminate/events": "~5.0"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~4.0",
-        "satooshi/php-coveralls": "dev-master",
-        "way/phpunit-wrappers": "dev-master"
-    },
-    "autoload": {
-        "psr-0": {
-            "Lookitsatravis\\Listify": "src/"
-        }
-    },
-    "autoload-dev": {
-        "classmap": ["tests/models"]
-    },
-    "minimum-stability": "stable"
+  "name": "lookitsatravis/listify",
+  "description": "Turn any Eloquent model into a list! http://lookitsatravis.github.io/listify",
+  "keywords": [
+    "laravel",
+    "model",
+    "position",
+    "acts_as_list",
+    "rails",
+    "list",
+    "eloquent",
+    "order"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Travis Vignon",
+      "email": "travis@lookitsatravis.com",
+      "homepage": "http://lookitsatravis.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "laravel/framework": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0",
+    "satooshi/php-coveralls": "^2.0",
+    "way/phpunit-wrappers": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Lookitsatravis\\Listify": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/models"
+    ]
+  },
+  "minimum-stability": "stable"
 }
